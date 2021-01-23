@@ -8,7 +8,7 @@ const IndexPage = () => (
       Complete courses about the best tools and design systems. Prototype and
       build apps with React and Swift.
     </p>
-    <Link to="/page-2/">Go to page 2342423</Link>
+    <Link to="/page-2/">Go to page 3</Link>
   </div>
 )
 
