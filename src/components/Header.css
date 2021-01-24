@@ -1,0 +1,16 @@
+.Header {
+  position: fixed;
+  width: 100%;
+  padding: 50px 0;
+  z-index: 100;
+  /* background: black; */
+}
+
+.HeaderGroup {
+  max-width: 800px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(5, auto);
+  /* grid-template-columns: auto auto auto auto auto; Another way */
+  align-items: center;
+}
