@@ -7,9 +7,9 @@ const Header = ({ siteTitle }) => (
       <Link to="/">
         <img src={require('../images/logo-designcode.svg')} width="30"></img>
       </Link>
-      <Link to="/courses">Courses</Link>
-      <Link to="/downloads">Downloads</Link>
-      <Link to="/workshops ">Workshops</Link>
+      <Link to="/courses">Button 1</Link>
+      <Link to="/downloads">Button 2</Link>
+      <Link to="/workshops ">Button 2</Link>
       <Link to="/buy">
         <button>Buy</button>
       </Link>

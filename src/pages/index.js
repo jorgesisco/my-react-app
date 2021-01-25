@@ -5,12 +5,13 @@ const IndexPage = () => (
   <div>
     <div className="Hero">
       <div className="HeroGroup">
-        <h1>Learn to design and code React</h1>
+        <h1>Building a better you</h1>
         <p>
-          Complete courses about the best tools and design systems. Prototype
-          and build apps with React and Swift.
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iste maxime
+          ipsa eaque aliquid rerum ut officiis consectetur nesciunt odit
+          tenetur.
         </p>
-        <Link to="/page-2/">Watch the video</Link>
+        <Link to="/page-2/">Make a Reservation</Link>
       </div>
     </div>
   </div>
