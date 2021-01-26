@@ -21,6 +21,8 @@ a {
   height: 920px;
   background-size: cover;
   background-position: center;
+  position: relative;
+  z-index: 0;
 }
 
 .HeroGroup {
@@ -88,5 +90,28 @@ a {
   100% {
     opacity: 1;
     transform: translateY(0px);
+  }
+}
+
+.Hero svg {
+  position: absolute;
+  bottom: 35px;
+  left: 0;
+  z-index: -100;
+  opacity: 40%;
+}
+
+.Hero .Logos {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  grid-gap: 0px;
+  margin: 100px 0;
+  justify-items: center;
+  z-index: 100;
+}
+
+@media (max-width: 640px) {
+  .Hero .Logos {
+    grid-template-columns: repeat(3, 1fr);
   }
 }
