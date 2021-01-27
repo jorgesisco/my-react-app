@@ -11,11 +11,12 @@ export default function Layout({ children }) {
     <StaticQuery
       query={graphql`
         query allContentfulLinkAndLayoutQuery {
-          allContentfulLink(filter: {}) {
+          allContentfulLink(sort: { fields: [createdAt], order: ASC }) {
             edges {
               node {
                 title
                 url
+                createdAt
               }
             }
           }
@@ -33,7 +34,10 @@ export default function Layout({ children }) {
             defaultTitle={data.site.siteMetadata.title}
           />
           <div>{children}</div>
-          <Footer data={data} />
+          <Footer data={data}>
+            © JSC web 2020-2021. Made with love & coffe in Caracas, Lecheria and
+            Toronto.
+          </Footer>
         </>
       )}
     />
