@@ -5,7 +5,7 @@ import { StaticQuery, graphql } from 'gatsby'
 // import Header from './header'
 import './index.css'
 
-export default function Layout({ children, location, history, match }) {
+export default function Layout({ children }) {
   return (
     <StaticQuery
       query={graphql`

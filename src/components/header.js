@@ -1,5 +1,5 @@
 import React from 'react'
-import Link from 'gatsby-link'
+import { Link } from 'gatsby'
 import './Header.css'
 
 class Header extends React.Component {
@@ -14,7 +14,7 @@ class Header extends React.Component {
     window.addEventListener('scroll', this.handleScroll)
   }
 
-  handleScroll = (event) => {
+  handleScroll = event => {
     const scrollTop = window.pageYOffset
 
     if (scrollTop > 100) {
