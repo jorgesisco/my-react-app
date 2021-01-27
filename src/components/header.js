@@ -34,6 +34,7 @@ class Header extends React.Component {
             <img
               src={require('../images/logo-designcode.svg')}
               width="30"
+              alt="sisco"
             ></img>
           </Link>
           <Link to="/courses">Our Services</Link>

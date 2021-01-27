@@ -7,7 +7,7 @@ import staticData from '../../staticData.json'
 import Cell from '../components/Cell'
 import styled from 'styled-components'
 import Layout from '../components/Layout'
-import Header from '../components/header'
+import Header from '../components/Header'
 
 const SectionCaption = styled.p`
   font-weight: 600;
